@@ -32,7 +32,7 @@ const HamburgerMenu = () => {
         transition={{ duration: 0.3 }}
       >
         <Link href="/">
-          <div className={styles.menuItem}>Search</div>
+          <div className={styles.menuItem}>Human Search Agent</div>
         </Link>
         <Link href="/donor_side">
           <div className={styles.menuItem}>Donor Dashboard</div>

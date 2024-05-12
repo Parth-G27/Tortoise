@@ -87,7 +87,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <span className={styles.gradientText}>XYZ</span>
+          <span className={styles.gradientText}>Human Search Agent</span>
         </h1>
 
         <div className={styles.searchContainer}>
@@ -114,23 +114,11 @@ export default function Home() {
             <div key={index} className={styles.donorItem}>
               <h3 className={styles.donorName}>{name}</h3>
 
-              <button onClick={() => sendDonorName(name)} className={styles.iconButton}>
-                {/* <img src='/logos/gemini_logo.jpg' alt="logo" /> */}
-                {/* <i className="fas fa-ellipsis-v"></i> */}
-
-                {/* <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 100 100"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <polygon
-                    points="50,0 61.8,38.2 100,38.2 69.1,61.8 80.9,100 50,76.4 19.1,100 30.9,61.8 0,38.2 38.2,38.2"
-                    fill="yellow"
-                  />
-                </svg> */}
+              {/* <button onClick={} className={styles.iconButton}>
+                
                 Go
-              </button>
+              </button> */}
+              <a href="/gen_ppt" className={styles.iconButton}><span>&#8594;</span></a>
             </div>
           ))}
         </div>
