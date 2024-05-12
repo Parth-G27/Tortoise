@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Modal from 'react-modal';
+import HamburgerMenu from "./hamburger";
+
 
 // Custom styles for the contribute button
 const contributeButtonStyle = {
@@ -75,6 +77,7 @@ const Spends = () => {
 
   return (
     <div style={{ backgroundColor: 'black', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', fontFamily: 'Arial, sans-serif' }}>
+      <HamburgerMenu/>
       <h2 style={{ fontSize: '28px', marginBottom: '20px' }}>Weekly Spending Breakdown</h2>
       <div style={{ width: '80%', height: '400px', marginBottom: '20px' }}>
         <ResponsiveContainer>
