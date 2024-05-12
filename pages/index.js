@@ -6,6 +6,9 @@ import axios from "axios";
 import HamburgerMenu from "./hamburger";
 // import gem from '../public/logos/gemini_logo'
 
+
+
+
 export default function Home() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
