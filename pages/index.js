@@ -14,6 +14,10 @@ export default function Home() {
 
   // const [prompt, setprompt] = useState('');
 
+
+
+  
+
   const sendMessage = async () => {
     try {
       const response = await axios.post("http://localhost:8080/send-message", {
