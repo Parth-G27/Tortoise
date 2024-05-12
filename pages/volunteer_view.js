@@ -7,6 +7,7 @@ import HamburgerMenu from "./hamburger";
 
 const VolunteerView = () => {
   const router = useRouter();
+  const [volunteerJoinStatus, setvolunteerJoinStatus] = useState("Volunteer")
   const [projects, setProjects] = useState([
     {
       id: 1,
@@ -227,9 +228,9 @@ const VolunteerView = () => {
                 
                 <button
                   className={styles.volunteerButton}
-                  onClick={() => handleVolunteerClick(project)}
+                  onClick={() => setvolunteerJoinStatus("Joined")}
                 >
-                  Volunteer
+                  {volunteerJoinStatus}
                 </button>
               </div>
             </div>

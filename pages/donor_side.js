@@ -112,6 +112,7 @@ const DonorPage = () => {
         image: "/images/2cleanwater.jpeg",
         fundingGoal: 50000,
         fundingRaised: 35000,
+        
       },
       {
         id: 2,

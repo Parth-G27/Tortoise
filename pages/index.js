@@ -9,7 +9,7 @@ import HamburgerMenu from "./hamburger";
 export default function Home() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState(["Loading soon..."]);
+  const [searchResults, setSearchResults] = useState(["Waiting for your prompt..."]);
   const [donorNameSend, setdonorNameSend] = useState("");
 
   // const [prompt, setprompt] = useState('');
